@@ -14,6 +14,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'devise', '~> 4.2'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'factory_girl_rails', '~> 4.7'
+gem "gritter", "1.2.0"
+gem 'administrate', github: 'greetpoint/administrate', branch: 'master'
+gem 'bourbon'
 
 group :development, :test do
   gem 'byebug'
